@@ -1,13 +1,10 @@
 import random
 
-roll = random.randint(1,6)
+side = input('How any sides? ')
+roll = random.randint(1,int(side))
 
-def main():
-    print(roll)
-    ## print("Would you like to roll again? Press Enter.")
-    ## if input():
-        ## print(roll)
-    ## else:
-        ## print('Thanks, see you next time.')
+side
+print('Rolling a ' + side + ' sided dice.')
+print('You rolled ' + str(int(roll)))
 
-main()
+
