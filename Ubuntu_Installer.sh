@@ -9,9 +9,9 @@ curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 # Update package index files
 sudo apt-get update
 #Install Brave Browser
-sudo apt-get install brave-y
+snap install brave -y
 #Install Teams
-sudo apt install teams -y
+snap install teams -y
 #Install Edge
 sudo apt install microsoft-edge-dev -y
 #Install Pip
@@ -25,3 +25,5 @@ sudo apt-get install spotify -y
 sudo apt-get install discord -y
 #Install VLC
 sudo apt-get install vlc -y
+#Install Hiri
+snap install hiri
